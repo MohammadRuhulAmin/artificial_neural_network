@@ -1,0 +1,48 @@
+Here’s a commonly used .gitignore template for Python projects. It helps exclude unnecessary files and directories from your Git repository:
+Gitignore# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+.ENV/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Logs and debug files
+*.log
+*.pot
+*.pyo
+
+# Unit test / Coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+*.py,cover
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# System files
+.DS_Store
+Thumbs.db
+
+This template can be customized based on your specific project needs. It ensures that only the essential files are tracked in your repository, keeping it clean and efficient.
