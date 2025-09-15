@@ -44,5 +44,5 @@ htmlcov/
 # System files
 .DS_Store
 Thumbs.db
-
+*.pdf
 This template can be customized based on your specific project needs. It ensures that only the essential files are tracked in your repository, keeping it clean and efficient.
